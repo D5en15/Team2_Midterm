@@ -15,7 +15,7 @@ var dbconfig = {
         }
     },
     production: {
-        server: '192.168.56.106',
+        server: 'http://10.21.43.203/',
         database:'team0_web_labDB',
         user:'sa',
         password:'P@ssw0rd',

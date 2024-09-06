@@ -10,14 +10,14 @@ const OnlineAgent = require('./repository/OnlineAgent');
 
 process.env.NODE_TLS_REJECT_UNAUTHORIZED = "1";
 
-const apiport = 8443
+const apiport = 8200
 
 var url = require('url');
 
 //---------------- Websocket Part1 Start -----------------------
 
 var webSocketServer = new (require('ws')).Server({
-    port: (process.env.PORT || 3071)
+    port: (process.env.PORT || 8201)
 }),
     clientWebSockets = {} // userID: webSocket
 CLIENTS = [];
