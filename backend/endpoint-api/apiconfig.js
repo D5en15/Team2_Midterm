@@ -10,4 +10,3 @@ var apiconfig = {
 
 };
 module.exports = apiconfig;
-
